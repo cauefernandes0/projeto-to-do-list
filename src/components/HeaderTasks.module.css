@@ -1,0 +1,33 @@
+.maxWidth{
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    font-size: 0.875rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.title span{
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    padding: 0.25rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+}
+
+.criadas{
+    color: var(--blue);
+}
+
+.concluidas{
+    color: var(--purple);
+}

@@ -1,0 +1,81 @@
+.maxWidth{
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    font-size: 0.875rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.title span{
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    padding: 0.25rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+}
+
+.criadas{
+    color: var(--blue);
+}
+
+.concluidas{
+    color: var(--purple);
+}
+
+
+
+.tasks{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--gray-400);
+    gap: 0.75rem;
+    position: relative;
+}
+
+.tasks p{
+    color: var(--gray-200);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    word-break: break-word;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.tasks.done p {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checkButton, .trashButton{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.checkButton{
+    margin: 0.1rem;
+}
+
+.trashButton{
+    margin-left: auto;
+}
+.ic{
+    color: #808080
+}
+.ic:hover{
+    color: var(--red);
+}
