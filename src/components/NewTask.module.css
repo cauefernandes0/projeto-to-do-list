@@ -37,3 +37,9 @@
     opacity:0.7;
     cursor: not-allowed;
 }
+
+@media (max-width:768px){
+    .newTask button{
+        width: 4rem;
+    }
+}

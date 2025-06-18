@@ -31,3 +31,10 @@
 .concluidas{
     color: var(--purple);
 }
+
+
+@media (max-width: 768px){
+    .title{
+        justify-content: space-around;
+    }
+}
